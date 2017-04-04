@@ -1,0 +1,13 @@
+#container{
+	margin: auto;
+	padding: auto;
+	background-image: url("images/logoISI.png");
+}
+
+.titre-ar{
+	font-weight: 4em;
+}
+
+.titre-fr{
+	font-weight: 2em;
+}

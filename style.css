@@ -1,0 +1,126 @@
+@font-face{
+   font-family:"Majalla";
+   src: url("polices/Majalla.eot");
+   src: url("polices/Majalla.eot?iefix") format("embedded-opentype"),
+        url("polices/Majalla.woff") format("woff"),
+        url("polices/Majalla.ttf") format("truetype"),
+        url("polices/Majalla.svg#Dayrom") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+#container{
+	width: 600px;
+	margin: auto;
+	padding: auto;
+}
+
+/*body{
+	background: center no-repeat url('images/logoISI.png');
+}*/
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;	
+	font-family: Majalla;
+	font-size: 1em;
+}
+
+.titre-ar{
+	text-align: center;
+	font-size: 3em;
+	font-family: "Matura MT Script Capitals";
+}
+
+.titre-fr{
+	text-align: center;
+	font-size: 2em;
+	font-family: "Matura MT Script Capitals";
+}
+
+.libelle-ar{
+	text-align: left;
+	line-height: 35px;
+	font-family: Majalla;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.libelle-fr{
+	text-align: right;
+	font-family: Majalla;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.renseignement{
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.btn-cnx{
+	font-family: candara;
+	font-weight: bold;
+}
+
+.imageLogo{
+	display: inline-block;
+	padding: 50px;
+}
+
+.titreCompte{
+	font-weight: bold;
+	font-family: "Matura MT Script Capitals";
+	font-size: 5em;
+	color: blue;
+	text-align: center;
+}
+
+.lienCompo{
+	color: white;
+}
+
+.lienCompo:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.surbrille-line{
+	background-color: RGBa(0, 0, 0, 0.1);;
+}
+
+#containerImageLogo, #positionBoutonsCnx{
+	margin: auto;
+	padding: 30px;
+	text-align: center;
+}
+
+#formConnexion{
+	position: absolute;
+	width: 600px;
+	padding: auto;
+	margin: auto;
+
+}
+
+#boutonsConnection{
+	position: relative;
+	margin-bottom: 100px;
+}
+
+label[for=matricule]{
+	font-family: cambria;
+	font-size: 1.3em;
+}
+
+/*div[class=row]*/
+#presentation-eleve{
+	 padding-right: 15px;
+	 padding-left: 15px;
+	 margin-right: auto;
+	 margin-left: auto;
+}
